@@ -1,4 +1,4 @@
-%global _smp_build_ncpus 4
+#global _smp_build_ncpus 4
 
 %define major     0
 %define libname   %mklibname editorconfig %{major}
@@ -6,7 +6,7 @@
 
 Name:           editorconfig-core-c
 Version:        0.12.5
-Release:        %mkrel 2
+Release:        1
 Summary:        EditorConfig core library written in C
 License:        BSD
 Group:          System/Libraries
