@@ -78,10 +78,10 @@ mkdir -p build/doc/man
 %cmake \
 	-DLIB_SUFFIX=%{_lib} \
 	-DINSTALL_HTML_DOC=ON
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%make_install -C build
 
 # we don't want these
 find %{buildroot} -name '*.a' -delete
