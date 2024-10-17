@@ -10,7 +10,7 @@ Release:	3
 Summary:	EditorConfig core library written in C
 License:	BSD
 Group:		System/Libraries
-Url:		http://editorconfig.org/
+Url:		https://editorconfig.org/
 Source:		https://github.com/editorconfig/editorconfig-core-c/archive/v%{version}/%{name}-%{version}.tar.gz
 Patch0:		editorconfig-core-c-0.12.1-no_timestamp.patch
 BuildRequires:	cmake
