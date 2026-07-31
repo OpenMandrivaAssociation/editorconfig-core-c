@@ -5,14 +5,14 @@
 %define develname %mklibname editorconfig -d
 
 Name:		editorconfig-core-c
-Version:	0.12.5
-Release:	3
+Version:	0.12.11
+Release:	1
 Summary:	EditorConfig core library written in C
 License:	BSD
 Group:		System/Libraries
 Url:		https://editorconfig.org/
 Source:		https://github.com/editorconfig/editorconfig-core-c/archive/v%{version}/%{name}-%{version}.tar.gz
-Patch0:		editorconfig-core-c-0.12.1-no_timestamp.patch
+# dropped (no longer applies): Patch0:		editorconfig-core-c-0.12.1-no_timestamp.patch
 BuildRequires:	cmake
 BuildRequires:	doxygen
 BuildRequires:	pkgconfig(libpcre2-posix)
